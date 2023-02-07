@@ -18,4 +18,14 @@ window.onload = function ()
       
         e.preventDefault ();
     };
+
+    myForm.akceptacjaRegulaminu[0].onclick = function ()
+    {
+        submitButton.disabled = false;
+    }
+
+    myForm.akceptacjaRegulaminu[1].onclick = function ()
+    {
+        submitButton.disabled = true;
+    }
 };
